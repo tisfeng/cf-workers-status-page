@@ -15,25 +15,74 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
-    description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+  - id: izual # unique identifier
+    name: izual
+    url: 'https://izual.me' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
-    method: GET
+  - id: 'tisfeng'
+    name: 'tisfeng'
+    description: 'tisfeng'
+    url: 'https://tisfeng.com'
+    method: 'GET'
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false
 
-  - id: inpaint
-    name: inpaint
-    url: 'https://inpaint.izual.me'
-    method: GET
+  - id: 'xunfeng'
+    name: 'xunfeng'
+    description: 'xunfeng'
+    url: 'https://xunfeng.wang'
+    method: 'GET'
     expectStatus: 200
+    linkable: false
+
+  - id: 'inpaint-web'
+    name: 'inpaint'
+    description: 'inpaint-web'
+    url: 'https://inpaint.izual.me'
+    method: 'GET'
+    expectStatus: 200
+    linkable: true
+
+  - id: 'ollama'
+    name: 'ollama'
+    description: 'ollama'
+    url: 'https://ollama.izual.me'
+    method: 'GET'
+    expectStatus: 200
+    linkable: false
+
+  - id: 'short-link'
+    name: 'short-link'
+    description: 'short-link'
+    url: 'https://s.izual.me'
+    method: 'GET'
+    expectStatus: 200
+    linkable: true
+
+  - id: 'chat'
+    name: 'chat'
+    description: 'chat'
+    url: 'https://chat.izual.me'
+    method: 'GET'
+    expectStatus: 200
+    linkable: true
+
+  - id: 'one-api'
+    name: 'one-api'
+    description: 'one-api'
+    url: 'https://api.izual.me'
+    method: 'GET'
+    expectStatus: 200
+    linkable: true
+
+  - id: 'DeepLX'
+    name: 'DeepLX'
+    description: 'DeepLX'
+    url: 'https://deeplx.izual.me'
+    method: 'GET'
+    expectStatus: 200
+    linkable: true
