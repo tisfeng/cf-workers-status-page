@@ -15,7 +15,7 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: izual # unique identifier 
+  - id: izual # unique identifier
     name: izual
     description: 'izual'
     url: 'https://izual.me' # URL to fetch
