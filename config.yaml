@@ -32,15 +32,6 @@ monitors:
     expectStatus: 200
     linkable: false
 
-
-  - id: 'ollama'
-    name: 'ollama'
-    description: 'ollama'
-    url: 'https://ollama.izual.me'
-    method: 'GET'
-    expectStatus: 200
-    linkable: false
-
   - id: 'one-api'
     name: 'one-api'
     description: 'one-api'
